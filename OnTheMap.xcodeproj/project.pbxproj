@@ -14,6 +14,7 @@
 		BE0F021D21EC1FD60021B04F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE0F021B21EC1FD60021B04F /* LaunchScreen.storyboard */; };
 		BE0F022521EC25900021B04F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0F022421EC25900021B04F /* MapViewController.swift */; };
 		BE0F022721EC6AE50021B04F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0F022621EC6AE50021B04F /* Model.swift */; };
+		BE21C7A421EF3ED6000D7056 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE21C7A321EF3ED6000D7056 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BE0F021E21EC1FD60021B04F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE0F022421EC25900021B04F /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		BE0F022621EC6AE50021B04F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		BE21C7A321EF3ED6000D7056 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				BE0F021B21EC1FD60021B04F /* LaunchScreen.storyboard */,
 				BE0F021E21EC1FD60021B04F /* Info.plist */,
 				BE0F022621EC6AE50021B04F /* Model.swift */,
+				BE21C7A321EF3ED6000D7056 /* Constants.swift */,
 			);
 			path = OnTheMap;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE21C7A421EF3ED6000D7056 /* Constants.swift in Sources */,
 				BE0F021521EC1FD20021B04F /* LoginViewController.swift in Sources */,
 				BE0F022521EC25900021B04F /* MapViewController.swift in Sources */,
 				BE0F021321EC1FD20021B04F /* AppDelegate.swift in Sources */,
